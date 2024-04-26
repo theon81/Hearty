@@ -74,5 +74,5 @@ body:hover > #trailer {
     left: 50%; 
     transform: translateX(-50%) scale(60%);
     z-index: 1; 
-    background-image: url(/img/wmtgowy.gif);
+    background-image: url(img/wmtgowy.gif);
 }
