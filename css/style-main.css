@@ -3,6 +3,7 @@
 
 body {
     background-color: rgb(20, 20, 20);
+    background-image: url(../img/bg_314.gif);
     
     height: 100vh;    
     margin: 0px;  
@@ -12,6 +13,7 @@ body {
     justify-content: center;
 
     gap: clamp(10px, 4vw, 100px);
+    cursor: none;
 }
 
 body:hover > #trailer {
@@ -54,7 +56,7 @@ body:hover > #trailer {
     width: clamp(120px, 40vmin, 600px);
     background-position: center 50%;
     background-size: 100%;  
-    opacity: 0.7;
+    opacity: 0.6;
     border-radius: 5px;
     
     transition: background-size 400ms ease, opacity 400ms ease;
@@ -74,5 +76,5 @@ body:hover > #trailer {
     left: 50%; 
     transform: translateX(-50%) scale(60%);
     z-index: 1; 
-    background-image: url(img/wmtgowy.gif);
+    background-image: url(../img/wmtgowy.gif);
 }
