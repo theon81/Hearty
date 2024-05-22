@@ -8,7 +8,7 @@ const animateTrailer = (e, interacting) => {
     const y = e.clientY - trailer.offsetHeight / 2;
 
     const distance = Math.sqrt((x - prevX) ** 2 + (y - prevY) ** 2);
-    const duration = Math.min(800, distance * 50); // Adjust 5 as needed for responsiveness
+    const duration = Math.min(800, distance * 50);
     
     const keyframes = {
         transform: `translate(${x}px, ${y}px) scale(${interacting ? 8 : 1})`

@@ -13,7 +13,6 @@ body {
     justify-content: center;
 
     gap: clamp(10px, 4vw, 100px);
-    cursor: none;
 }
 
 body:hover > #trailer {
